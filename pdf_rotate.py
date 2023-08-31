@@ -1,6 +1,5 @@
 # Rotates a page in a given pdf by specified amount.
 
-
 # Import tools
 from pypdf import PdfWriter, PdfReader
 
