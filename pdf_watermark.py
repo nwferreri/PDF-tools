@@ -33,3 +33,4 @@ out_file = input("Enter output PDF filename: ")
 if out_file[-4:] != '.pdf':
     out_file = out_file + '.pdf'
 writer.write(out_file)
+print("All done!")
