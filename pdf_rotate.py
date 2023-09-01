@@ -49,3 +49,4 @@ if out_file[-4:] != '.pdf':
     out_file = out_file + '.pdf'
 with open(out_file, "wb") as fp:
     writer.write(fp)
+print("All done!")
