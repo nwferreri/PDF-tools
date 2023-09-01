@@ -26,3 +26,4 @@ if out_file[-4:] != '.pdf':
     out_file = out_file + '.pdf'
 merger.write(out_file)
 merger.close()
+print("All done!")
