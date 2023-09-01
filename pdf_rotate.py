@@ -14,9 +14,8 @@ while True:
     else:
         break
 
-# Copy original document
-writer = PdfWriter()
-writer.clone_document_from_reader(reader)
+# Open writer as clone of document
+writer = PdfWriter(clone_from=file)
 
 # Get page number to rotate
 while True:
